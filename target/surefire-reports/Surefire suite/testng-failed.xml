@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" verbose="0" name="Failed suite [Surefire suite]" parallel="methods">
+  <test name="Surefire test(failed)" parallel="methods" preserve-order="true">
+    <classes>
+      <class name="com.vitalsource.tests.AddDeleteHighLightTest">
+        <methods>
+          <include name="signIn"/>
+          <include name="setUpLocal"/>
+          <include name="close"/>
+          <include name="deleteHighLight"/>
+          <include name="addHighLight"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="34632" started-at="2016-08-29T14:51:43Z" finished-at="2016-08-29T14:52:17Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="34632" started-at="2016-08-29T14:51:43Z" finished-at="2016-08-29T14:52:17Z">
+      <class name="com.vitalsource.tests.RedeemCodeTest">
+        <test-method status="PASS" signature="setUpLocal(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.Boolean)[pri:0, instance:com.vitalsource.tests.RedeemCodeTest@6b2fad11]" name="setUpLocal" is-config="true" duration-ms="9403" started-at="2016-08-29T14:51:43Z" finished-at="2016-08-29T14:51:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[english]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="redeemCode()[pri:0, instance:com.vitalsource.tests.RedeemCodeTest@6b2fad11]" name="redeemCode" duration-ms="25207" started-at="2016-08-29T14:51:52Z" finished-at="2016-08-29T14:52:17Z">
+        </test-method>
+        <test-method status="PASS" signature="close()[pri:0, instance:com.vitalsource.tests.RedeemCodeTest@6b2fad11]" name="close" is-config="true" duration-ms="1" started-at="2016-08-29T14:52:17Z" finished-at="2016-08-29T14:52:17Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

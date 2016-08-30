@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: com.vitalsource.tests.LoginLogOutTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 30.008 sec <<< FAILURE! - in com.vitalsource.tests.LoginLogOutTest
+LogOut(com.vitalsource.tests.LoginLogOutTest)  Time elapsed: 0.218 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: Element is not clickable at point (1266, 22). Other element would receive the click: <div class="modal onboarding-modal onboarding fullscreen undefined" tabindex="0" style="display: block;">...</div>
+  (Session info: chrome=52.0.2743.82)
+  (Driver info: chromedriver=2.20.353124 (035346203162d32c80f1dce587c8154a1efa0c3b),platform=Linux 3.13.0-46-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 57 milliseconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'b-Sat-M645', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.13.0-46-generic', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={userDataDir=/tmp/.com.google.Chrome.0yOlit}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=52.0.2743.82, platform=LINUX, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d7ad46b2e51adb8d007233a032b69d2d
+	at com.vitalsource.tests.LoginLogOutTest.LogOut(LoginLogOutTest.java:44)
+

@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.vitalsource.tests.ExploreCollectionTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 47.032 sec <<< FAILURE! - in com.vitalsource.tests.ExploreCollectionTest
+ExploreCollection(com.vitalsource.tests.ExploreCollectionTest)  Time elapsed: 41.678 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotVisibleException: 
+Element is not currently visible and so may not be interacted with
+Command duration or timeout: 10.05 seconds
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'b-Sat-M645', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.13.0-46-generic', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=39.0.3, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 09163a7e-a68c-41d5-8461-e9d0cb91a5b6
+	at com.vitalsource.tests.ExploreCollectionTest.ExploreCollection(ExploreCollectionTest.java:44)
+Caused by: org.openqa.selenium.ElementNotVisibleException: 
+Element is not currently visible and so may not be interacted with
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'b-Sat-M645', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.13.0-46-generic', java.version: '1.8.0_101'
+Driver info: driver.version: unknown
+
